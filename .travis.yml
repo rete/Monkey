@@ -1,0 +1,28 @@
+language: cpp
+
+sudo: not required
+
+compilers:
+  - gcc
+  - clang
+
+os:
+  - linux
+  - osx
+
+script:
+  - mkdir build
+  - cd build
+  - cmake ..
+  - make install
+
+matrix:
+  include:
+    - os: osx
+      compiler: gcc
+    - os: linux
+      compiler: clang
+
+# Don't send e-mail notifications
+notifications:
+  email: false
