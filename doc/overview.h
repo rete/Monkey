@@ -2,6 +2,8 @@
 
 \mainpage Monkey web page <a href="https://github.com/rete/Monkey">https://github.com/rete/Monkey</a>
 
+<img src="https://travis-ci.org/rete/Monkey.svg?branch=master" align="left"/><br/>
+
 <b>Monkey</b>
 is a unified c++ interface for markup languages and others.
 
